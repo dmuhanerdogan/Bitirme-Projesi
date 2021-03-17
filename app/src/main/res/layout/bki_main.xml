@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/boy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="Boyunuz..."
+        android:inputType="text|number"
+        android:textColor="#000000">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/kilo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:ems="10"
+        android:hint="Kilonuz..."
+        android:inputType="text|number"
+        android:textColor="#000000">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buton_sonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="213dp"
+        android:layout_weight="0.52"
+        android:background="#ccaf65"
+        android:text="HESAPLA" />
+
+    <Button
+        android:id="@+id/b_sonuc"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:background="#ccaf65"
+        android:text=""
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/b_sonuc2"
+        android:layout_width="143dp"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/s_yanlisimage"
+        android:layout_centerHorizontal="true"
+        android:background="#ccaf65"
+        android:text=""
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/s_yanlisimage"
+        android:layout_width="104dp"
+        android:layout_height="168dp"
+        android:layout_above="@+id/b_sonuc"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/s_2_kirmizi" />
+
+    <ImageView
+        android:id="@+id/s_normalimage"
+        android:layout_width="105dp"
+        android:layout_height="170dp"
+        android:layout_above="@+id/b_sonuc"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/s_normal" />
+
+    <ImageView
+        android:id="@+id/s_yesil_image"
+        android:layout_width="106dp"
+        android:layout_height="181dp"
+        android:layout_above="@+id/b_sonuc"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/s_yesil_" />
+
+
+</RelativeLayout>

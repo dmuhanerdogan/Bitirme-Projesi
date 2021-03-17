@@ -1,0 +1,4 @@
+#Thu May 31 01:07:44 EET 2018
+base.0=C\:\\Users\\ASUS\\AndroidStudioProjects\\bitirme2guncel\\BitirmeProjesiguncel\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

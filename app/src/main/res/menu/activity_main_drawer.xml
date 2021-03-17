@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bki_hesabi_id"
+            android:icon="@drawable/graph"
+            android:title="BKI Hesabı" />
+        <item
+            android:id="@+id/kalori_id"
+            android:icon="@drawable/graph2"
+            android:title="Kalori Hesabı" />
+        <item
+            android:id="@+id/egzersiz_id"
+            android:icon="@drawable/cycling"
+            android:title="Egzersiz Çeşitleri" />
+        <item
+            android:id="@+id/adimsayar_id"
+            android:icon="@drawable/walk"
+            android:title="Adım Sayar" />
+        <item
+            android:id="@+id/beslenme_id"
+            android:icon="@drawable/apple"
+            android:title="Besin Kalorileri" />
+    </group>
+
+    <item android:title="GİRİŞ">
+        <menu>
+            <item
+                android:id="@+id/giris_id"
+                android:icon="@drawable/ic_com"
+                android:title="KULLANICI GİRİŞİ" />
+            <item
+                android:id="@+id/iletisim_id"
+                android:icon="@drawable/ic_com2"
+                android:title="İLETİŞİM"
+                tools:ignore="DuplicateIds" />
+        </menu>
+    </item>
+
+</menu>

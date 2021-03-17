@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.bitirmeprojesi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fruit"
+        android:label="FİTFORM"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:icon="@drawable/fruit"
+            android:label="FİTFORM"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BKI_Hesabi" />
+        <activity android:name=".Kalori_Hesabi" />
+        <activity android:name=".Egzersiz_Cesitleri" />
+        <activity android:name=".Beslenme_Onerileri" />
+        <activity android:name=".AdimSayar" />
+        <activity android:name=".Giris" />
+        <activity android:name=".egzersiz_hareketleri" />
+        <activity android:name=".Bacak_egzersiz" />
+        <activity android:name=".Kol_egzersiz" />
+        <activity android:name=".Hosgeldiniz" />
+        <activity android:name=".KayitOl" />
+        <activity android:name=".Iletisim" />
+        <activity android:name=".Et_Urunleri"></activity>
+        <service android:name=".Servis"></service>
+        <activity android:name=".Sut_Urunleri"></activity>
+        <activity android:name=".Deniz_Urunleri"></activity>
+        <activity android:name=".Sebze_Urunleri"></activity>
+        <activity android:name=".Unlu_Gidalar"></activity>
+    </application>
+
+</manifest>
